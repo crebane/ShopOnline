@@ -75,7 +75,7 @@ public class ShoppingCartBase : ComponentBase
 		}
 		catch (Exception)
 		{
-
+			// Log exception
 			throw;
 		}
 	}

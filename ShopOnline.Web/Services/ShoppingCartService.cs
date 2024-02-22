@@ -115,7 +115,7 @@ public class ShoppingCartService : IShoppingCartService
         }
         catch (Exception)
         {
-
+            // Log exception
             throw;
         }
     }
